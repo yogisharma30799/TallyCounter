@@ -1,0 +1,109 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .counter {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px; /* Add gap between counters */
+  }
+  
+  
+  .counter__value {
+    background-color: #e8e8e8;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .counter__buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px; /* Add top margin to separate buttons from counter value */
+  }
+  
+  .counter__button {
+    background-color: #3f51b5;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .counter__button:hover {
+    background-color: #2c3e8a;
+  }
+  
+  .navbar {
+    background-color: #f1f1f1;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .navbar__container {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+  }
+  
+  .navbar__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  .navbar__user {
+    margin-right: 10px;
+    text-align: right;
+  }
+  
+  .navbar__userName {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .navbar__userEmail {
+    font-size: 0.8rem;
+    color: #888;
+  }
+  
+  .navbar__btn {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .navbar__btn:hover {
+    background-color: #0056b3;
+  }
+  
